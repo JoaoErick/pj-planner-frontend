@@ -17,5 +17,18 @@ export default {
       }
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities({
+        '.hide-time-picker::-webkit-calendar-picker-indicator': {
+          display: 'none',
+        },
+        '.hide-time-picker': {
+          '-webkit-appearance': 'none',
+          '-moz-appearance': 'none',
+          'appearance': 'none',
+        },
+      });
+    },
+  ],
 }

@@ -5,3 +5,11 @@
 * {
   min-width: 0;
 }
+
+.rdp-root {
+  --rdp-accent-color: #A3E635;
+  --rdp-accent-background-color: #A3E635;
+  --rdp-accent-background-color: #27272a;
+  --rdp-range_start-color: #1a2e05;
+}
+
