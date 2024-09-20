@@ -27,9 +27,9 @@ export function ImportantLinks({openCreateLinkModal}: ImportantLinksProps) {
 
       {links.length > 0 && (
         <div className="space-y-6">
-          {links.map((link) => {
+          {links.map((link, index) => {
             return (
-              <div className="flex items-center">
+              <div key={index} className="flex items-center">
                 <div className="space-y-1.5 flex flex-col">
                   <span className="text-base font-medium text-zinc-100">{link.title}</span>
                   <a href={link.url} className="text-xs text-zinc-400 truncate hover:text-zinc-200" target="_blank">
