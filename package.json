@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "axios": "^1.7.3",
+    "axios": "^1.7.7",
     "date-fns": "^3.6.0",
     "frontend": "file:",
     "localforage": "^1.10.0",
